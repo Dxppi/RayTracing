@@ -54,9 +54,9 @@
             // glControl1
             // 
             this.glControl1.BackColor = System.Drawing.Color.Black;
-            this.glControl1.Location = new System.Drawing.Point(12, 12);
+            this.glControl1.Location = new System.Drawing.Point(12, 49);
             this.glControl1.Name = "glControl1";
-            this.glControl1.Size = new System.Drawing.Size(1347, 954);
+            this.glControl1.Size = new System.Drawing.Size(942, 674);
             this.glControl1.TabIndex = 0;
             this.glControl1.VSync = false;
             this.glControl1.Load += new System.EventHandler(this.glControl1_Load_1);
@@ -64,7 +64,7 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(1429, 68);
+            this.trackBar1.Location = new System.Drawing.Point(1034, 91);
             this.trackBar1.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar1.Maximum = 255;
             this.trackBar1.Name = "trackBar1";
@@ -74,7 +74,7 @@
             // 
             // trackBar2
             // 
-            this.trackBar2.Location = new System.Drawing.Point(1429, 131);
+            this.trackBar2.Location = new System.Drawing.Point(1034, 154);
             this.trackBar2.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar2.Maximum = 255;
             this.trackBar2.Name = "trackBar2";
@@ -84,7 +84,7 @@
             // 
             // trackBar3
             // 
-            this.trackBar3.Location = new System.Drawing.Point(1429, 181);
+            this.trackBar3.Location = new System.Drawing.Point(1034, 204);
             this.trackBar3.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar3.Maximum = 255;
             this.trackBar3.Name = "trackBar3";
@@ -94,7 +94,7 @@
             // 
             // trackBar4
             // 
-            this.trackBar4.Location = new System.Drawing.Point(1429, 325);
+            this.trackBar4.Location = new System.Drawing.Point(1034, 348);
             this.trackBar4.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar4.Maximum = 4;
             this.trackBar4.Minimum = -4;
@@ -105,7 +105,7 @@
             // 
             // trackBar5
             // 
-            this.trackBar5.Location = new System.Drawing.Point(1429, 375);
+            this.trackBar5.Location = new System.Drawing.Point(1034, 398);
             this.trackBar5.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar5.Maximum = 4;
             this.trackBar5.Minimum = -4;
@@ -116,7 +116,7 @@
             // 
             // trackBar6
             // 
-            this.trackBar6.Location = new System.Drawing.Point(1429, 425);
+            this.trackBar6.Location = new System.Drawing.Point(1034, 448);
             this.trackBar6.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar6.Maximum = 4;
             this.trackBar6.Minimum = -4;
@@ -128,7 +128,7 @@
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(1384, 425);
+            this.textBox1.Location = new System.Drawing.Point(989, 448);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -140,7 +140,7 @@
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(1384, 375);
+            this.textBox2.Location = new System.Drawing.Point(989, 398);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
@@ -152,7 +152,7 @@
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(1384, 334);
+            this.textBox3.Location = new System.Drawing.Point(989, 357);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
@@ -164,7 +164,7 @@
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(1384, 81);
+            this.textBox4.Location = new System.Drawing.Point(989, 104);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
@@ -176,7 +176,7 @@
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Location = new System.Drawing.Point(1384, 131);
+            this.textBox5.Location = new System.Drawing.Point(989, 154);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
@@ -188,7 +188,7 @@
             // textBox6
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Location = new System.Drawing.Point(1384, 190);
+            this.textBox6.Location = new System.Drawing.Point(989, 213);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
@@ -200,7 +200,7 @@
             // textBox7
             // 
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Location = new System.Drawing.Point(1429, 32);
+            this.textBox7.Location = new System.Drawing.Point(1034, 55);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
@@ -212,7 +212,7 @@
             // textBox8
             // 
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Location = new System.Drawing.Point(1429, 297);
+            this.textBox8.Location = new System.Drawing.Point(1034, 320);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
@@ -225,7 +225,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1602, 997);
+            this.ClientSize = new System.Drawing.Size(1262, 792);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);

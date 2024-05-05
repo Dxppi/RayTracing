@@ -162,7 +162,7 @@ void initializeDefaultScene (out STriangle triangles[12], out SSphere spheres[2]
 	
  //Sphere_Small_Controll
 	spheres[0].Center = vec3(2.0,0.0,2.0);  
-	spheres[0].Radius = 0.8;  
+	spheres[0].Radius = 1;  
 	spheres[0].MaterialIdx = 6; 
  
  //Sphere_Big_Controll
@@ -234,7 +234,7 @@ void initializeDefaultScene (out STriangle triangles[12], out SSphere spheres[2]
 
 void initializeDefaultLightMaterials(out SLight light, out SMaterial materials[8]) 
 {
-    light.Position = vec3(4.0, 2.0, -2.0f); 
+    light.Position = vec3(0.0, 2.0, -4.0f); 
  
 //Material_Controll
     vec4 lightCoefs = vec4(0.4,0.9,0.0,512.0);    
@@ -488,7 +488,7 @@ void main ( void )
     uCamera.View = vec3(0.0, 0.0, 1.0); 
 	uCamera.Up = vec3(0.0, 1.0, 0.0);  
 	uCamera.Side = vec3(1.0, 0.0, 0.0); 
-	uCamera.Scale = vec2(1); 
+	uCamera.Scale = vec2(1.0); 
 	SRay ray = GenerateRay( uCamera);
 	SIntersection intersect;        
 	intersect.Time = 1000000.0;    
