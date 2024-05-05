@@ -41,6 +41,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
@@ -52,10 +54,9 @@
             // glControl1
             // 
             this.glControl1.BackColor = System.Drawing.Color.Black;
-            this.glControl1.Location = new System.Drawing.Point(-5, 12);
-            this.glControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.glControl1.Location = new System.Drawing.Point(12, 12);
             this.glControl1.Name = "glControl1";
-            this.glControl1.Size = new System.Drawing.Size(652, 562);
+            this.glControl1.Size = new System.Drawing.Size(1347, 954);
             this.glControl1.TabIndex = 0;
             this.glControl1.VSync = false;
             this.glControl1.Load += new System.EventHandler(this.glControl1_Load_1);
@@ -63,68 +64,75 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(713, 12);
+            this.trackBar1.Location = new System.Drawing.Point(1429, 68);
+            this.trackBar1.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar1.Maximum = 255;
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(203, 56);
+            this.trackBar1.Size = new System.Drawing.Size(152, 45);
             this.trackBar1.TabIndex = 1;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // trackBar2
             // 
-            this.trackBar2.Location = new System.Drawing.Point(713, 74);
+            this.trackBar2.Location = new System.Drawing.Point(1429, 131);
+            this.trackBar2.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar2.Maximum = 255;
             this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(203, 56);
+            this.trackBar2.Size = new System.Drawing.Size(152, 45);
             this.trackBar2.TabIndex = 2;
             this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
             // 
             // trackBar3
             // 
-            this.trackBar3.Location = new System.Drawing.Point(713, 136);
+            this.trackBar3.Location = new System.Drawing.Point(1429, 181);
+            this.trackBar3.Margin = new System.Windows.Forms.Padding(2);
             this.trackBar3.Maximum = 255;
             this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Size = new System.Drawing.Size(203, 56);
+            this.trackBar3.Size = new System.Drawing.Size(152, 45);
             this.trackBar3.TabIndex = 3;
             this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
             // 
             // trackBar4
             // 
-            this.trackBar4.Location = new System.Drawing.Point(713, 210);
-            this.trackBar4.Maximum = 20;
-            this.trackBar4.Minimum = -20;
+            this.trackBar4.Location = new System.Drawing.Point(1429, 325);
+            this.trackBar4.Margin = new System.Windows.Forms.Padding(2);
+            this.trackBar4.Maximum = 4;
+            this.trackBar4.Minimum = -4;
             this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Size = new System.Drawing.Size(203, 56);
+            this.trackBar4.Size = new System.Drawing.Size(152, 45);
             this.trackBar4.TabIndex = 4;
             this.trackBar4.Scroll += new System.EventHandler(this.trackBar4_Scroll);
             // 
             // trackBar5
             // 
-            this.trackBar5.Location = new System.Drawing.Point(713, 272);
-            this.trackBar5.Maximum = 20;
-            this.trackBar5.Minimum = -20;
+            this.trackBar5.Location = new System.Drawing.Point(1429, 375);
+            this.trackBar5.Margin = new System.Windows.Forms.Padding(2);
+            this.trackBar5.Maximum = 4;
+            this.trackBar5.Minimum = -4;
             this.trackBar5.Name = "trackBar5";
-            this.trackBar5.Size = new System.Drawing.Size(203, 56);
+            this.trackBar5.Size = new System.Drawing.Size(152, 45);
             this.trackBar5.TabIndex = 5;
             this.trackBar5.Scroll += new System.EventHandler(this.trackBar5_Scroll);
             // 
             // trackBar6
             // 
-            this.trackBar6.Location = new System.Drawing.Point(713, 334);
-            this.trackBar6.Maximum = 20;
-            this.trackBar6.Minimum = -20;
+            this.trackBar6.Location = new System.Drawing.Point(1429, 425);
+            this.trackBar6.Margin = new System.Windows.Forms.Padding(2);
+            this.trackBar6.Maximum = 4;
+            this.trackBar6.Minimum = -4;
             this.trackBar6.Name = "trackBar6";
-            this.trackBar6.Size = new System.Drawing.Size(203, 56);
+            this.trackBar6.Size = new System.Drawing.Size(152, 45);
             this.trackBar6.TabIndex = 6;
             this.trackBar6.Scroll += new System.EventHandler(this.trackBar6_Scroll);
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(654, 334);
+            this.textBox1.Location = new System.Drawing.Point(1384, 425);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(53, 15);
+            this.textBox1.Size = new System.Drawing.Size(40, 13);
             this.textBox1.TabIndex = 7;
             this.textBox1.Text = "Z";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -132,10 +140,11 @@
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(654, 272);
+            this.textBox2.Location = new System.Drawing.Point(1384, 375);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(53, 15);
+            this.textBox2.Size = new System.Drawing.Size(40, 13);
             this.textBox2.TabIndex = 8;
             this.textBox2.Text = "Y";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -143,10 +152,11 @@
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(654, 221);
+            this.textBox3.Location = new System.Drawing.Point(1384, 334);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(53, 15);
+            this.textBox3.Size = new System.Drawing.Size(40, 13);
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "X";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -154,10 +164,11 @@
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(654, 12);
+            this.textBox4.Location = new System.Drawing.Point(1384, 81);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(53, 15);
+            this.textBox4.Size = new System.Drawing.Size(40, 13);
             this.textBox4.TabIndex = 10;
             this.textBox4.Text = "RED";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -165,10 +176,11 @@
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Location = new System.Drawing.Point(654, 74);
+            this.textBox5.Location = new System.Drawing.Point(1384, 131);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(53, 15);
+            this.textBox5.Size = new System.Drawing.Size(40, 13);
             this.textBox5.TabIndex = 11;
             this.textBox5.Text = "GREEN";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -176,19 +188,46 @@
             // textBox6
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Location = new System.Drawing.Point(654, 147);
+            this.textBox6.Location = new System.Drawing.Point(1384, 190);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(53, 15);
+            this.textBox6.Size = new System.Drawing.Size(40, 13);
             this.textBox6.TabIndex = 12;
             this.textBox6.Text = "BLUE";
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // textBox7
+            // 
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Location = new System.Drawing.Point(1429, 32);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(128, 13);
+            this.textBox7.TabIndex = 13;
+            this.textBox7.Text = "Настройки цветов";
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox8
+            // 
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Location = new System.Drawing.Point(1429, 297);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(128, 13);
+            this.textBox8.TabIndex = 14;
+            this.textBox8.Text = "Позиция камеры";
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(928, 558);
+            this.ClientSize = new System.Drawing.Size(1602, 997);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -202,6 +241,7 @@
             this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.glControl1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
@@ -230,6 +270,8 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }
 
